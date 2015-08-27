@@ -6407,15 +6407,16 @@ th.hide-for-touch {
     -o-transform: rotate(90deg); }
 
   .how img {
-    filter: invert(20%);
-    -webkit-filter: invert(20%);
-    -moz-filter: invert(20%);
-    -o-filter: invert(20%);
-    -ms-filter: invert(20%);
+    filter: saturate(50%);
+    -webkit-filter: saturate(50%);
+    -moz-filter: saturate(50%);
+    -o-filter: saturate(50%);
+    -ms-filter: saturate(50%);
     height: 225px;
     width: 232px;
     border-radius: 50%;
-    display: inline-block; }
+    display: inline-block;
+    border: 1px solid #416c78; }
 
   .how .row {
     max-height: 520px;
@@ -6426,10 +6427,21 @@ th.hide-for-touch {
     font-family: "Avenir Next";
     color: #416c78; }
 
+  .how p {
+    margin-top: 20px; }
+
   .how h2 {
     font-size: 24px; 
     padding-top: 30px;
     padding-bottom: 30px; }
+
+  .how a {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 0 auto;
+  }
+
 
   /** TESTIMONIALS **/
   .testimonials {
@@ -6476,21 +6488,20 @@ th.hide-for-touch {
 
   .pricing h1 {
     font-size: 50px;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px; }
 
   .pricing h2 {
     font-size: 24px;
-    padding-bottom: 30px;
-    padding-top: 40px; }
+    padding-bottom: 20px;
+    padding-top: 30px; }
 
   .pricing h3 {
     font-size: 18px; }
 
   .pricing h1, .pricing h2 {
     margin: 0 auto; }
-
-  .pricing p {
-    margin-bottom: 50px; }
 
   .pricing {
     text-align: center;
@@ -6500,18 +6511,17 @@ th.hide-for-touch {
     max-width: 797px; }
 
   .pricing img {
-    -ms-transform: rotate(90deg);
+    /**-ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
+    transform: rotate(90deg);**/
     border: 1px solid #416c78;
-    max-height: 240px;
-    max-width: 277px;
+    max-height: 300px;
+    max-width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    float: right; }
+    float: right;
+    margin-bottom: 50px; }
 
 
 /**FOOTER**/
