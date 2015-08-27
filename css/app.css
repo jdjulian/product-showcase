@@ -6360,6 +6360,10 @@ th.hide-for-touch {
     .firstnavlink, .thirdnavlink {
       padding-right: 75px; }
 
+    .thirdnavlink, .fourthnavlink {
+      vertical-align: right;
+    }
+
 /** HERO **/
     .hero {
       background-color: #ab6e81; }
@@ -6394,12 +6398,24 @@ th.hide-for-touch {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg); }
     **/
+
+  .how .small-4:nth-child(1) img {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg); }
+
   .how img {
     filter: invert(20%);
     -webkit-filter: invert(20%);
     -moz-filter: invert(20%);
     -o-filter: invert(20%);
-    -ms-filter: invert(20%); }
+    -ms-filter: invert(20%);
+    height: 225px;
+    width: 232px;
+    border-radius: 50%;
+    display: inline-block; }
 
   .how .row {
     max-height: 520px;
@@ -6460,18 +6476,21 @@ th.hide-for-touch {
 
   .pricing h1 {
     font-size: 50px;
-    font-weight: bold;
-  }
+    font-weight: bold; }
 
   .pricing h2 {
     font-size: 24px;
     padding-bottom: 30px;
-    padding-top: 40px; 
-  }
+    padding-top: 40px; }
 
   .pricing h3 {
-    font-size: 18px;
-  }
+    font-size: 18px; }
+
+  .pricing h1, .pricing h2 {
+    margin: 0 auto; }
+
+  .pricing p {
+    margin-bottom: 50px; }
 
   .pricing {
     text-align: center;
@@ -6484,7 +6503,16 @@ th.hide-for-touch {
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    border: 1px solid #416c78; }
+    border: 1px solid #416c78;
+    max-height: 240px;
+    max-width: 277px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    float: right; }
+
 
 /**FOOTER**/
 .footer {
@@ -6492,7 +6520,39 @@ th.hide-for-touch {
 
 .footer .row {
   max-width: 797px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 5px; }
+
+.footer a, .footer p {
+  font-size: 12px;
+  color: #FFFFFF;
+  margin: 0 auto; }
+
+.footer .small-4:nth-child(3) p {
+  text-align: right;
+  font-size: 10px; }
+
+.footer li {
+  margin-left: 10px; 
 }
+
+.footer i:first-child {
+  padding-left: 30px;
+}
+
+/**.footer .small-4:nth-child(3) {
+
+}**/
+
+.footer .fa {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+
+
 
   
 
