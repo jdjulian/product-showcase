@@ -6325,7 +6325,7 @@ th.hide-for-touch {
     display: none !important; } }
 
 /** NAV **/
-    .nav {
+    .nav ul {
       font-size: 18px;
       font-family: "Avenir Next";
       color: #416c78;
@@ -6389,11 +6389,31 @@ th.hide-for-touch {
 
   /** HOW DOES IT WORK SECTION **/
   /** rotate design image 
-  .how .large-4:first-child img:first-child {
+  .how .small-4:first-child img:first-child {
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg); }
     **/
+  .how img {
+    filter: invert(20%);
+    -webkit-filter: invert(20%);
+    -moz-filter: invert(20%);
+    -o-filter: invert(20%);
+    -ms-filter: invert(20%); }
+
+  .how .row {
+    max-height: 520px;
+    max-width: 797px; }
+
+  .how h2, .how p {
+    text-align: center;
+    font-family: "Avenir Next";
+    color: #416c78; }
+
+  .how h2 {
+    font-size: 24px; 
+    padding-top: 30px;
+    padding-bottom: 30px; }
 
   /** TESTIMONIALS **/
   .testimonials {
@@ -6430,6 +6450,50 @@ th.hide-for-touch {
   .testimonials .small-9 {
     padding right: 15px; 
     padding-left: 15px; }
+
+  /** PRICING **/
+  .pricing h1,
+  .pricing h2,
+  .pricing h3 {
+    color: #416c78; 
+    font-family: "Avenir Next"; }
+
+  .pricing h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .pricing h2 {
+    font-size: 24px;
+    padding-bottom: 30px;
+    padding-top: 40px; 
+  }
+
+  .pricing h3 {
+    font-size: 18px;
+  }
+
+  .pricing {
+    text-align: center;
+    color: #416c78; }
+
+  .pricing .row {
+    max-width: 797px; }
+
+  .pricing img {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    border: 1px solid #416c78; }
+
+/**FOOTER**/
+.footer {
+  background-color: #ab6e81; }
+
+.footer .row {
+  max-width: 797px;
+}
+
   
 
 
